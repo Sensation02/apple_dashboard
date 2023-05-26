@@ -1,0 +1,11 @@
+@use '../../lib/service' as s;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.page {
+  background-color: s.color('background');
+  font-size: s.size();
+}
