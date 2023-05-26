@@ -1,0 +1,10 @@
+@use './var';
+
+@mixin bgImg {
+  background-size: cover;
+  @media screen and (width < var.screen('tablet')) {
+    background-size: 110%;
+  }
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
